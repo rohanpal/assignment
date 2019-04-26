@@ -3,7 +3,9 @@ const graphqlHTTP = require("express-graphql");
 const app = express();
 const Schema = require("./Schema/Schema");
 const mongoose = require("mongoose");
-
+app.get("/", (req, res) => {
+  res.send("Hello");
+});
 app.use(
   "/graphql",
   graphqlHTTP({
