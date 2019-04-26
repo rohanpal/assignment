@@ -1,2 +1,0 @@
-# assignment
-Created with CodeSandbox
